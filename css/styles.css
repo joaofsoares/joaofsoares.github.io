@@ -2,28 +2,78 @@ body {
   background-color: #f2f2f2;
 }
 
-.simpleButton {
-  margin: 0px 10px 10px 0px;
+.box {
+  padding-top: 20px;
+  text-align: center;
+  color: #1e847f
 }
 
-.downloadButton {
-  margin-top: 30px;
-  margin-left: 20px;
+.middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.groupSimpleButton {
-  margin-top: 10px;
-  margin-left: 10px
+.image-box {
+  width: 150px;
+  height: 150px;
+  padding-left: 20px;
 }
 
-.description {
-  margin-top: 15px;
-  color:#000000; 
+.right-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  padding-right: 20px;
 }
 
-.generalText {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  margin-left: 10px;
+.buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 10px 20px;
+}
+
+.download {
+  padding: 10px 25px;
+}
+
+.content-box {
+  text-align: left;
+  color: #000000;
+}
+
+.header {
+  display: inline-block;
+  padding: 10px 20px;
+}
+
+.inner-text {
+  padding: 20px;
+  text-align: left;
+}
+
+.bottom-box {
+  text-align: center;
+  color: #000000;
+}
+
+.bottom-title {
+  display: inline-block;
+  padding: 10px 40px;
+  margin-bottom: 20px;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.col {
+  flex: 1;
+  padding: 40px 0;
 }
